@@ -1,0 +1,4 @@
+Flask==3.0.0
+Flask-CORS==4.0.0
+Flask-Sock==0.2.9
+pyserial==3.5
