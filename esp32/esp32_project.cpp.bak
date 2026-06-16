@@ -1,0 +1,7 @@
+// Backup of complete project compilation unit
+// This demonstrates how to combine all source files
+
+#include "infinitive_esp32.ino"
+#include "infinitive_bus.cpp"
+#include "infinitive_api.cpp"
+#include "infinitive_conversions.cpp"

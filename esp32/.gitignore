@@ -1,0 +1,28 @@
+# Arduino IDE
+*.o
+*.a
+*.so
+.*.swp
+*~
+build/
+firmware/
+
+# ESP32 build files
+build/
+*.bin
+*.map
+*.elf
+*.o
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+secrets.h
+config.local.h
