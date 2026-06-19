@@ -39,7 +39,7 @@ class Bus:
     def open_serial(self):
         """Open serial port"""
         try:
-            self.port = serial.Serial(self.port_name, baudrate=19200, timeout=1)
+            self.port = serial.serial_for_url(self.port_name, baudrate=19200, timeout=1)
             logger.info(f"Opened serial port {self.port_name}")
         except Exception as e:
             logger.error(f"Failed to open serial port: {e}")
