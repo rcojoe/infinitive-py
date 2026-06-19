@@ -1,4 +1,4 @@
-Flask==3.0.0
+Flask==3.0.3
 Flask-CORS==4.0.0
-Flask-Sock==0.2.9
+Flask-Sock==0.7
 pyserial==3.5
